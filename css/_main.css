@@ -1,0 +1,18 @@
+body {  margin: auto; font-family: Verdana; }
+.hidden { display: hidden; }
+.main-link
+{
+	float: left;
+	font-weight: bold;
+	width: 200px;
+	height: 300px;
+}
+.main-link a
+{
+	position: relative;
+	display: block;
+	width: 160px;
+	height: 260px;
+	padding: 20px;
+}
+ul.nav { clear: both; padding: 0; list-style: none; display: block; }
