@@ -1,0 +1,18 @@
+db: mysql://user:pass@host/mediabrary
+paths:
+  movie:
+		- /path/to/movie
+  tv:
+		- /path/to/tv
+  glue:
+    user: username
+    pass: password
+  player:
+		trans:
+			- client /192.168.1.*/
+        source /data/nas
+        target http://192.168.1.1:82/nas
+			- client /.*/
+        source /data/nas
+        target http://public.webserver:82/nas
+

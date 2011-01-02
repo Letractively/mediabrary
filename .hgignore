@@ -1,0 +1,4 @@
+glob:nbproject/private/*
+glob:img/meta/*
+glob:rss_check.txt
+glob:config/config.yml
