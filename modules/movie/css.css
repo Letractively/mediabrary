@@ -1,0 +1,40 @@
+#divMainMovies { background: url('img/main-movies.jpg'); }
+
+.movie-item
+{
+	position: relative;
+	float: left;
+	width: 185px;
+	height: 275px;
+	overflow: auto;
+	/*opacity: 0.5;*/
+}
+
+.movie-image
+{
+	position: absolute;
+	width: 185px;
+	height: 275px;
+}
+
+#movie-detail
+{
+	position: relative;
+	z-index: 1999;
+}
+
+.movie-buttons img { height: 32px; }
+
+.quick-buttons img { height: 32px; }
+
+.quick-buttons { background: #000; text-align: center; }
+.movie-details
+{
+	overflow: hidden;
+	color: #FFF;
+	font-size: 30pt;
+	font-weight: bold;
+	text-shadow: #000 2px 2px;
+}
+
+#filter-toggle { float: right; }
