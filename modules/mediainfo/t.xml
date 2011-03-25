@@ -1,0 +1,20 @@
+<div id="mediainfo">
+<fieldset><legend>Hide Columns</legend>
+<column>
+	<label title="{{title}}"><input type="checkbox" class="hider"
+		value="mit-col{{index}}" /> {{short}}</label>
+</column>
+</fieldset>
+<table id="mediainfo-table">
+	<thead><tr>
+		<column><th class="mit-col{{index}}" title="{{title}}">{{short}}</th></column>
+	</tr></thead>
+<tbody>
+<item>
+	<tr>
+		<icol><td class="{{class}}">{{data}}</td></icol>
+	</tr>
+</item>
+</tbody>
+</table>
+</div>
