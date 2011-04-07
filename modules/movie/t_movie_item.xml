@@ -1,0 +1,17 @@
+<null>
+<item>
+	<div style="background: url('{{med_thumb}}') no-repeat;" title="{{fs_path}}"
+		class="movie-item">
+		<div class="movie-details" style="display: none">
+		<div class="quick-buttons">
+			<a href="{{app_abs}}/movie/detail/{{_id}}?path={{reu_path}}"
+				class="a-movie-item"><img
+					src="modules/movie/img/information.png" /></a>
+			<callback ds="_d" name="movie.cb.cover" />
+		</div>
+		{{title}}
+		</div>
+	</div>
+</item>
+<!-- <div class="clear">Total: {{total}}</div> -->
+</null>
