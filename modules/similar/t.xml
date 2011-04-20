@@ -1,0 +1,4 @@
+<items>
+	<item><p><a href="{{trailer}}" target="_blank">{{title}}</a></p>
+	<p>{{teaser}}</p></item>
+</items>
